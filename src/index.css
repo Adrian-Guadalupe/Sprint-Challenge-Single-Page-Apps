@@ -37,3 +37,24 @@ main {
 header h1 {
   text-align: center;
 }
+
+.card-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* .navi {
+  margin-bottom: 30px;
+} */
+
+.search-form {
+  margin: 30px auto;
+}
+
+.charCard {
+  width: 30%;
+  margin-bottom: 30px;
+}
