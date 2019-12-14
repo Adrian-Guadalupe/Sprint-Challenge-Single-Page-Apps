@@ -38,6 +38,12 @@ header h1 {
   text-align: center;
 }
 
+.link-container {
+  display: flex;
+  flex-direction: column;
+  margin: 40px auto;
+}
+
 .card-container {
   width: 100%;
   display: flex;

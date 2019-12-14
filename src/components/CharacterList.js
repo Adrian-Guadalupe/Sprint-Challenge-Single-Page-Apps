@@ -6,7 +6,6 @@ import SearchForm from './SearchForm';
 
 export default function CharacterList() {
   const [charArr, setCharArr] = useState([]);
-  // const [episodeArr, setEpisodeArr] = useState([]);
 
   useEffect(() => {
     axios
@@ -18,25 +17,6 @@ export default function CharacterList() {
       .catch(error => console.log(error))
   }, []);
 
-
-  /////////////////////////////////////////////////
-  // useEffect (() => {
-  //   charArr.map(char => {
-  //     console.log(char.episode);
-  //     char.episode.map(episode => {
-  //       axios
-  //         .get(episode)
-  //         .then(res => {
-  //           console.log(res.data);
-  //           console.log(res.data.name);
-  //           setEpisodeArr(res.data.name);
-  //         })
-  //     })
-  //   })
-  // })
-  //////////////////////////////////////////////////
-
-  
   return (
     <section className="character-list">
       <div className='navi'>
