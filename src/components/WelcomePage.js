@@ -9,6 +9,7 @@ export default function WelcomePage() {
         <div className='link-container'>
           <Link className='characters-link' to='/characters'>List of Characters</Link>
           <Link className='characters-link' to='/locations'>List of Locations</Link>
+          <Link className='characters-link' to='/episodes'>List of Episodes</Link>
         </div>
       </header>
       <img

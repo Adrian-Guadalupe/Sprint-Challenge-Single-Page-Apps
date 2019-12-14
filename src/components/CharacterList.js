@@ -19,8 +19,10 @@ export default function CharacterList() {
 
   return (
     <section className="character-list">
-      <div className='navi'>
+      <div className='link-container'>
         <Link to='/'>Home</Link>
+        <Link className='characters-link' to='/locations'>List of Locations</Link>
+        <Link className='characters-link' to='/episodes'>List of Episodes</Link>
         <SearchForm characters={charArr}/>
       </div>
       <div className='card-container'>
